@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab_Equipment.md",
+                "file": "Homelab Overview.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homelab_Equipment"
+              "title": "Homelab Overview"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab_Equipment.md",
+                "file": "Homelab Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Homelab_Equipment"
+              "title": "Backlinks for Homelab Overview"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homelab_Equipment.md",
+                "file": "Homelab Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Homelab_Equipment"
+              "title": "Outgoing links from Homelab Overview"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab_Equipment.md",
+                "file": "Homelab Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Homelab_Equipment"
+              "title": "Outline of Homelab Overview"
             }
           }
         ]
@@ -186,9 +186,9 @@
   "active": "1ece2bdddadbd05e",
   "lastOpenFiles": [
     "Homelab_Configurations.md",
+    "Homelab_Equipment.md",
     "Homelab_Tools.md",
     "README.md",
-    "Homelab_Equipment.md",
     "Homelab Overview.md",
     "VLANs/VLAN30_Security.md",
     "VLANs/VLAN40_Guests.md",

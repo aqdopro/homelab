@@ -1,5 +1,7 @@
 {
   "defaultViewMode": "preview",
   "livePreview": false,
-  "vimMode": true
+  "vimMode": true,
+  "tabSize": 2,
+  "readableLineLength": false
 }
