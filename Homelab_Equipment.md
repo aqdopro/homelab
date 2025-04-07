@@ -11,7 +11,7 @@
 - Box of CAT6 cable (for in-wall runs)
 
 ## 🔒 Security Devices
-- UniFi Protect Doorbell
+- UniFi Protect Doorbell *(planned)*
 - UniFi Cloud Key Gen2 Plus *(planned)*
 
 ## 🖥️ Servers & Misc
