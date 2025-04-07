@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "7fd0f1b42736d5e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbd55a68ab295f21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9dac6d7e72f785af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "1ece2bdddadbd05e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VLANs/VLAN30_Security.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "VLAN30_Security"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b22ca26f831df2f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "2acbb9694bd0df0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3e24c49b8da9056",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "502d1b590f4268f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e58371ab44c9ee07",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "49b9d1b150d114c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d6d0e6123c016bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9bde2c19183f704",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "VLANs/VLAN30_Security.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for VLAN30_Security"
+            }
+          },
+          {
+            "id": "f227ef26a21cc719",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "VLANs/VLAN30_Security.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from VLAN30_Security"
+            }
+          },
+          {
+            "id": "8a91a3f19fedb86e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "482cbe218b7211b6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "VLANs/VLAN30_Security.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of VLAN30_Security"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c3e24c49b8da9056",
+  "lastOpenFiles": [
+    "Homelab_Configurations.md",
+    "VLANs/VLAN40_Guests.md",
+    "VLANs/VLAN30_Security.md",
+    "VLANs/VLAN20_IoT.md",
+    "VLANs/VLAN10_Main.md",
+    "VLANs",
+    "Homelab Overview.md",
+    "Homelab_Tools.md",
+    "Homelab_Equipment.md",
+    "README.md"
+  ]
+}
