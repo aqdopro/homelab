@@ -3,7 +3,7 @@
 ## 🔌 Core Devices
 - Lenovo M720q (pfSense firewall)
 - Ubiquiti Lite 16 PoE switch *(planned)*
-- Main PC with B550 motherboard
+- Main PC
 
 ## 📡 Networking
 - Ubiquiti UniFi Access Point *(planned)*
