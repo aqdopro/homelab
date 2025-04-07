@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab_Configurations.md",
+                "file": "VLANs/VLAN10_Main.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homelab_Configurations"
+              "title": "VLAN10_Main"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "49b9d1b150d114c8",
@@ -185,8 +185,8 @@
   },
   "active": "1ece2bdddadbd05e",
   "lastOpenFiles": [
-    "VLANs/VLAN10_Main.md",
     "Homelab_Configurations.md",
+    "VLANs/VLAN10_Main.md",
     "README.md",
     "Homelab Overview.md",
     "Homelab_Equipment.md",
