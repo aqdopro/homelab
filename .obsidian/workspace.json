@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VPN.md",
+                "file": "Homelab_Tools.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "VPN"
+              "title": "Homelab_Tools"
             }
           }
         ],
@@ -213,19 +213,19 @@
   },
   "active": "b7d7dac3e49dda4a",
   "lastOpenFiles": [
-    "Homelab_Configurations.md",
+    "Wi-Fi_Setup.md",
+    "Homelab_Tools.md",
+    "Homelab_Equipment.md",
+    "Homelab Overview.md",
+    "README.md",
+    "pfSense_Backups.md",
     "VPN.md",
+    "Homelab_Configurations.md",
     "VLANs/VLAN40_Guests.md",
     "Firewall to Main Router.md",
-    "Wi-Fi_Setup.md",
     "VLANs/VLAN30_Security.md",
     "VLANs/VLAN20_IoT.md",
     "VLANs/VLAN10_Main.md",
-    "Homelab Overview.md",
-    "Homelab_Equipment.md",
-    "Homelab_Tools.md",
-    "README.md",
-    "pfSense_Backups.md",
     "VLANs"
   ]
 }

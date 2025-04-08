@@ -17,3 +17,4 @@
 ## 🖥️ Servers & Misc
 - Dell R630 *(for future virtualization/storage)*
 - UPS Battery Backup (APC)
+- Bambulab A1
