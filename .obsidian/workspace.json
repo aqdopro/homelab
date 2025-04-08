@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Wi-Fi_Setup"
             }
+          },
+          {
+            "id": "b7d7dac3e49dda4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VPN.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "VPN"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,20 +211,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29fe8cddfd1cc8ea",
+  "active": "b7d7dac3e49dda4a",
   "lastOpenFiles": [
     "Homelab_Configurations.md",
+    "VPN.md",
+    "VLANs/VLAN40_Guests.md",
+    "Firewall to Main Router.md",
+    "Wi-Fi_Setup.md",
+    "VLANs/VLAN30_Security.md",
     "VLANs/VLAN20_IoT.md",
+    "VLANs/VLAN10_Main.md",
     "Homelab Overview.md",
     "Homelab_Equipment.md",
     "Homelab_Tools.md",
     "README.md",
     "pfSense_Backups.md",
-    "Wi-Fi_Setup.md",
-    "VLANs/VLAN30_Security.md",
-    "VLANs/VLAN10_Main.md",
-    "Firewall to Main Router.md",
-    "VLANs/VLAN40_Guests.md",
     "VLANs"
   ]
 }
