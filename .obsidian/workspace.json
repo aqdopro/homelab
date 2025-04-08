@@ -13,25 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pfSense_Backups.md",
+                "file": "Homelab Overview.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "pfSense_Backups"
+              "title": "Homelab Overview"
+            }
+          },
+          {
+            "id": "e6b56e734e8bbcb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homelab_Equipment.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Homelab_Equipment"
             }
           },
           {
             "id": "29fe8cddfd1cc8ea",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Wi-Fi_Setup.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Wi-Fi_Setup"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,19 +197,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9dac6d7e72f785af",
+  "active": "29fe8cddfd1cc8ea",
   "lastOpenFiles": [
-    "pfSense_Backups.md",
-    "Firewall to Main Router.md",
-    "Homelab_Equipment.md",
     "Homelab_Configurations.md",
-    "VLANs/VLAN10_Main.md",
-    "VLANs/VLAN40_Guests.md",
-    "Homelab Overview.md",
-    "README.md",
-    "VLANs/VLAN30_Security.md",
     "VLANs/VLAN20_IoT.md",
+    "Homelab Overview.md",
+    "Homelab_Equipment.md",
     "Homelab_Tools.md",
+    "README.md",
+    "pfSense_Backups.md",
+    "Wi-Fi_Setup.md",
+    "VLANs/VLAN30_Security.md",
+    "VLANs/VLAN10_Main.md",
+    "Firewall to Main Router.md",
+    "VLANs/VLAN40_Guests.md",
     "VLANs"
   ]
 }
