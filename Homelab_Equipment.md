@@ -15,6 +15,6 @@
 - UniFi Cloud Key Gen2 Plus *(planned)*
 
 ## 🖥️ Servers & Misc
-- Dell R630 *(for future virtualization/storage)*
+- NAS 
 - UPS Battery Backup (APC)
 - Bambulab A1
