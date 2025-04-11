@@ -42,7 +42,7 @@
 	- **Source**: Any
 	- **Destination**: LAN (or the desired network)
 	  4. Click **Save** and **Apply Changes**
-	- Refer to the Homelab_Configurations) for a more detailed guide.
+	- Refer to the [[Homelab_Configurations]] for a more detailed guide.
 	  
 	  ---
 - ### Step 6: Set Up Remote Device (Client Configuration) 📱
