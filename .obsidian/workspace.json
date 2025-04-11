@@ -25,14 +25,10 @@
             "id": "e6b56e734e8bbcb1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab_Equipment.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Homelab_Equipment"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -76,9 +72,19 @@
               "icon": "lucide-file",
               "title": "pfSense_Backups"
             }
+          },
+          {
+            "id": "8725bd48d0877744",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -226,17 +232,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6b56e734e8bbcb1",
+  "active": "8725bd48d0877744",
   "lastOpenFiles": [
     "Homelab_Configurations.md",
     "Homelab_Equipment.md",
+    "VPN.md",
     "VLANs/VLAN10_Main.md",
     "pfSense_Backups.md",
     "README.md",
     "Homelab_Tools.md",
     "Wi-Fi_Setup.md",
     "Homelab Overview.md",
-    "VPN.md",
     "VLANs/VLAN40_Guests.md",
     "Firewall to Main Router.md",
     "VLANs/VLAN30_Security.md",
