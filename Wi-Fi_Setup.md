@@ -22,7 +22,7 @@ This note outlines the planned Wi-Fi SSIDs, associated VLANs, and usage for futu
 
  - [x] Pre-define VLANs in pfSense.
  - [x] Plan SSID names and which VLAN each SSID should map to.
- - [ ] Set up firewall rules for those VLANs.
+ - [x] Set up firewall rules for those VLANs.
 
 ---
 ## To Do Once AP Is Installed
