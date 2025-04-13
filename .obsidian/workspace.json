@@ -77,10 +77,14 @@
             "id": "8725bd48d0877744",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Wi-Fi_Setup.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Wi-Fi_Setup"
             }
           }
         ],
@@ -234,15 +238,15 @@
   },
   "active": "8725bd48d0877744",
   "lastOpenFiles": [
-    "Homelab_Configurations.md",
-    "Homelab_Equipment.md",
     "VPN.md",
-    "VLANs/VLAN10_Main.md",
     "pfSense_Backups.md",
-    "README.md",
     "Homelab_Tools.md",
-    "Wi-Fi_Setup.md",
+    "Homelab_Equipment.md",
     "Homelab Overview.md",
+    "Homelab_Configurations.md",
+    "VLANs/VLAN10_Main.md",
+    "README.md",
+    "Wi-Fi_Setup.md",
     "VLANs/VLAN40_Guests.md",
     "Firewall to Main Router.md",
     "VLANs/VLAN30_Security.md",

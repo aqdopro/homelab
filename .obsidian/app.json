@@ -3,5 +3,6 @@
   "livePreview": false,
   "vimMode": true,
   "tabSize": 2,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showLineNumber": true
 }
