@@ -1,5 +1,6 @@
 {
   "baseFontSizeAction": true,
-  "accentColor": "#ffac80",
-  "baseFontSize": 16
+  "accentColor": "#ff8880",
+  "baseFontSize": 16,
+  "cssTheme": "Atom"
 }

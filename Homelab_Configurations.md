@@ -24,6 +24,8 @@ This note contains a structured overview of the VLANs, firewall rules, and key n
 | VLAN50 | 192.168.50.0/24 | VLAN10                 | ✅ Pass  | Servers can access main VLAN       |
 | VLAN50 | 192.168.50.0/24 | VLAN20, VLAN30, VLAN40 | ❌ Block | Isolated from other VLANs          |
 
+> Note to self: '!' means blocked from talking to VLAN10 but is not blocked traffic going out
+
 ## 📁 Linked VLAN Notes
 
 - [[VLAN10_Main]]
