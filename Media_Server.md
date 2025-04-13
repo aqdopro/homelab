@@ -1,50 +1,79 @@
-# 🎬 Jellyfin / Plex
+# 🎬 Setup
 
-This note covers the setup, planning, and goals for a media server in my homelab using either **Jellyfin** or **Plex**.
+This note covers the plan for setting up a Media Server in the homelab, capable of running both **Jellyfin** and **Plex**.
 
-## 📽️ Purpose
+## 🧩 Use Case
 
-- Stream 1080p and 4K media across local network and remotely
-- Organize movies, TV shows, anime, and personal videos
-- Enable hardware-accelerated transcoding
-- Share media to close family members with various devices
+- Stream media (movies, TV shows, music) to devices on the network and remotely
+    
+- Organize media libraries
+    
+- Support for 4K transcoding
+    
+- Access via web, mobile, smart TVs, etc.
+    
 
-## 🧩 Software Options
+## 🛠️ Planned Software
 
-| Platform | Notes |
-|----------|-------|
-| Jellyfin | Fully open-source, no subscriptions |
-| Plex     | Mature ecosystem, some features require Plex Pass |
+| Application | Purpose                  | Notes                                  |
+| ----------- | ------------------------ | -------------------------------------- |
+| Jellyfin    | Open-source media server | Privacy-focused, lightweight           |
+| Plex        | Media server             | Broad client support, rich UI          |
+| Overseerr   | Media request service    | Connects to Plex, allows user requests |
 
-## 🧰 Planned Setup
+## 💽 Operating System
 
-- Host on: Baremetal
-- Access: LAN, Tailscale or VPN for remote access
-- Storage: Mounted NAS share 
-- Monitoring: Netdata, Prometheus + Grafana
+**TrueNAS SCALE**
 
-## 💾 Transcoding Hardware
+- Linux-based for flexibility
+    
+- Supports Docker and Kubernetes
+    
+- Ideal for running multiple apps in containers
+    
 
-- ✅ **Planned**: NVIDIA Quadro P2000  
-  Great for 4K transcoding, widely supported by both Jellyfin and Plex
+## 🧰 Features of TrueNAS SCALE
 
-## 🔐 Access & Security
+- ZFS storage support
+    
+- Docker and Kubernetes for app deployment
+    
+- Snapshot and replication support
+    
+- Web-based UI
+    
 
-- [ ] Create read-only media share for Jellyfin/Plex
-- [ ] Isolate network via VLAN (e.g., `Main` or dedicated `Media` VLAN)
-- [ ] Limit guest access to media server only
-- [ ] Optional: Enable HTTPS with reverse proxy (NGINX or Caddy)
+## 📦 Services to Run
 
-## 📝 Tasks
+- Jellyfin (via Docker or TrueNAS App)
+    
+- Plex (via Docker or TrueNAS App)
+    
+- Overseerr (via Docker or TrueNAS App)
+    
+- Optional: Sonarr, Radarr, Prowlarr for automation
+    
 
-- [ ] Install Jellyfin or Plex
-- [ ] Configure media libraries
-- [ ] Test transcoding and remote access
-- [ ] Add monitoring and backup jobs
+## 🔌Planned Hardware
+
+### Ideal (for 4K transcoding and multiple users)
+
+- CPU: Intel Xeon / Core i5, i7 (recent gen with Quick Sync) or AMD Ryzen with NVENC support
+    
+- RAM: 16GB or more
+    
+- Storage: 4+ bay NAS with ZFS support (e.g., 4x12TB drives)
+    
+- GPU: NVIDIA Quadro P2000 or better for hardware transcoding
+    
+- NIC: 2.5GbE or 10GbE for high-throughput streaming
+    
 
 ## 🔗 Related Notes
 
-- [[Homelab_Server]]
 - [[Homelab_Equipment]]
+    
+- [[VLAN50_Servers]]
+    
 - [[Homelab_Configurations]]
-- [[Homelab_Tools]]
+    

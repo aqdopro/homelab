@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab_Configurations.md",
+                "file": "Media_Server.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homelab_Configurations"
+              "title": "Media_Server"
             }
           },
           {
@@ -214,13 +214,14 @@
   },
   "active": "0a867a1e1f49b155",
   "lastOpenFiles": [
+    "Overseerr.md",
+    "Media_Server.md",
+    "Homelab_Configurations.md",
     "Wi-Fi_Setup.md",
     "VLANs/VLAN50_Servers.md",
-    "Homelab_Configurations.md",
     "Homelab Overview.md",
     "VLANs/VLAN10_Main.md",
     "pfSense_Backups.md",
-    "Media_Server.md",
     "Homelab_Server.md",
     "Homelab_Equipment.md",
     "VPN.md",
