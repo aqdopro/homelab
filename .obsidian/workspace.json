@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subnet/Subnet_Cheat_Sheet.md",
+                "file": "Subnet/Subnetting Notes.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Subnet_Cheat_Sheet"
+              "title": "Subnetting Notes"
+            }
+          },
+          {
+            "id": "6619733d0afbe504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Subnet/Subnet_Reference.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Subnet_Reference"
             }
           },
           {
@@ -151,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Subnet/Subnet_Cheat_Sheet.md",
+                "file": "Subnet/Subnetting Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Subnet_Cheat_Sheet"
+              "title": "Backlinks for Subnetting Notes"
             }
           },
           {
@@ -199,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Subnet/Subnet_Cheat_Sheet.md",
+                "file": "Subnet/Subnetting Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Subnet_Cheat_Sheet"
+              "title": "Outline of Subnetting Notes"
             }
           },
           {
@@ -223,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +253,12 @@
   },
   "active": "f587398e93fa1993",
   "lastOpenFiles": [
+    "Subnet/Subnet_Reference.md",
     "Subnet/Subnetting Notes.md",
-    "Subnet/Subnet_Cheat_Sheet.md",
+    "`10.0.0.0/24`.md",
+    "`10.0.0.0",
+    "Subnet/10.0.0.0/24.md",
+    "Subnet/10.0.0.0",
     "Subnet",
     "IP_Subnetting_Conversion_Guide.xlsx.md",
     "IP_Subnetting_Conversion_Guide.csv",
