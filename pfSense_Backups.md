@@ -25,7 +25,7 @@ Backlink: [[Homelab_Configurations]]
 ## ☁️ Automatic Config Backup (ACB)
 
 ### 🔧 Setup
-1. Go to: `System > Auto Config Backup`
+1. Go to: `Services > Auto Config Backup`
 2. Enable **Auto Config Backup**
 3. Sign in or register for a **Netgate account**
 4. Enable encryption and set a secure password

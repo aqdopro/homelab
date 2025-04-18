@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Media_Server.md",
+                "file": "pfSense_Backups.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Media_Server"
+              "title": "pfSense_Backups"
             }
           },
           {
@@ -214,8 +214,8 @@
   },
   "active": "0a867a1e1f49b155",
   "lastOpenFiles": [
-    "Overseerr.md",
     "Media_Server.md",
+    "Overseerr.md",
     "Homelab_Configurations.md",
     "Wi-Fi_Setup.md",
     "VLANs/VLAN50_Servers.md",
