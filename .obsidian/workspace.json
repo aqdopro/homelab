@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "f587398e93fa1993",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Subnet/Subnet_Cheat_Sheet.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Subnet_Cheat_Sheet"
+            }
+          },
+          {
             "id": "e6b56e734e8bbcb1",
             "type": "leaf",
             "state": {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homelab_Configurations.md",
+                "file": "Subnet/Subnet_Cheat_Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Homelab_Configurations"
+              "title": "Backlinks for Subnet_Cheat_Sheet"
             }
           },
           {
@@ -185,21 +199,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homelab_Configurations.md",
+                "file": "Subnet/Subnet_Cheat_Sheet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Homelab_Configurations"
+              "title": "Outline of Subnet_Cheat_Sheet"
+            }
+          },
+          {
+            "id": "169a63634ae32ca1",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,8 +236,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a867a1e1f49b155",
+  "active": "f587398e93fa1993",
   "lastOpenFiles": [
+    "Subnet/Subnetting Notes.md",
+    "Subnet/Subnet_Cheat_Sheet.md",
+    "Subnet",
+    "IP_Subnetting_Conversion_Guide.xlsx.md",
+    "IP_Subnetting_Conversion_Guide.csv",
+    "~$IP_Subnetting_Conversion_Guide.xlsx",
+    "IP_Subnetting_Conversion_Guide.xlsx",
+    "pfSense_Backups.md",
     "Media_Server.md",
     "Overseerr.md",
     "Homelab_Configurations.md",
@@ -221,7 +253,6 @@
     "VLANs/VLAN50_Servers.md",
     "Homelab Overview.md",
     "VLANs/VLAN10_Main.md",
-    "pfSense_Backups.md",
     "Homelab_Server.md",
     "Homelab_Equipment.md",
     "VPN.md",
