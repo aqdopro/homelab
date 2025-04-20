@@ -64,6 +64,20 @@
             }
           },
           {
+            "id": "16a22decc617b031",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Subnet/Subnet_Reference_2.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Subnet_Reference_2"
+            }
+          },
+          {
             "id": "e6b56e734e8bbcb1",
             "type": "leaf",
             "state": {
@@ -92,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -228,8 +242,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -251,9 +265,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f587398e93fa1993",
+  "active": "16a22decc617b031",
   "lastOpenFiles": [
     "Subnet/Subnet_Reference.md",
+    "Subnet/Subnet_Reference_2.md",
     "Subnet/Subnetting Notes.md",
     "`10.0.0.0/24`.md",
     "`10.0.0.0",
