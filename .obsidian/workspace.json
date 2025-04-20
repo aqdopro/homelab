@@ -97,16 +97,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wi-Fi_Setup.md",
+                "file": "Firewall to Main Router.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wi-Fi_Setup"
+              "title": "Firewall to Main Router"
+            }
+          },
+          {
+            "id": "54c2a3c8ea639bc1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -265,10 +275,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "16a22decc617b031",
+  "active": "8725bd48d0877744",
   "lastOpenFiles": [
-    "Subnet/Subnet_Reference.md",
     "Subnet/Subnet_Reference_2.md",
+    "Subnet/Subnet_Reference.md",
+    "Wi-Fi_Setup.md",
     "Subnet/Subnetting Notes.md",
     "`10.0.0.0/24`.md",
     "`10.0.0.0",
@@ -283,7 +294,6 @@
     "Media_Server.md",
     "Overseerr.md",
     "Homelab_Configurations.md",
-    "Wi-Fi_Setup.md",
     "VLANs/VLAN50_Servers.md",
     "Homelab Overview.md",
     "VLANs/VLAN10_Main.md",
