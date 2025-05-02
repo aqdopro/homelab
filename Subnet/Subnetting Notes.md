@@ -1,85 +1,67 @@
-## 🧠 Subnetting Practice Guide
+# 🌐 Subnetting Practice Notes
 
-This note is a guide to practicing subnetting and understanding key IP address calculations.
+## 📘 IPv4 Basics
 
----
-
-### 📘 What You Should Know
-
-- **Binary**, **Hexadecimal**, and **Decimal** conversions
-    
-- **Subnet Masks** and **CIDR Notation**
-    
-- Identifying key values from a subnet
-    
+- An IPv4 address has **32 bits**: `xxx.xxx.xxx.xxx`
+- It is divided into:
+  - **Network portion**
+  - **Host portion**
+- Example: `192.168.1.0/24`
+  - `/24` means 24 bits are for the **network**
+  - Remaining **8 bits** are for **hosts**
 
 ---
 
-### 🔢 Common Subnet Information
+## 🧮 Subnetting Steps
 
-When given an IP address and CIDR (e.g., `192.168.1.0/26`), calculate:
+### 1️⃣ Determine Number of Subnets Needed
+> ✏️ Formula: `2^n ≥ number_of_subnets`
 
-|Field|Description|
-|---|---|
-|**Network ID**|First address of the subnet|
-|**Broadcast IP**|Last address of the subnet|
-|**First Host IP**|First usable IP address in the subnet|
-|**Last Host IP**|Last usable IP address in the subnet|
-|**Next Network**|Starting address of the next subnet|
-|**IP Addresses**|Total number of addresses in the subnet|
-|**CIDR/Subnet**|Notation that determines the size of the subnet|
+- To get **4 subnets**, solve: `2^n ≥ 4`
+- Result: `n = 2` (you need to borrow 2 bits)
 
 ---
 
-### 🧮 How to Calculate (Simplified)
+### 2️⃣ New Subnet Mask
 
-1. **Subnet Mask**: Determine from CIDR (e.g., `/26` → `255.255.255.192`)
-    
-2. **Block Size**: `256 - last octet of subnet mask` (e.g., `256 - 192 = 64`)
-    
-3. **Network ID**: Start of the block (e.g., `192.168.1.0`)
-    
-4. **Broadcast IP**: Last IP in the range (e.g., `192.168.1.63`)
-    
-5. **First Host IP**: One after Network ID (e.g., `192.168.1.1`)
-    
-6. **Last Host IP**: One before Broadcast IP (e.g., `192.168.1.62`)
-    
-7. **Next Network**: Start of the next block (e.g., `192.168.1.64`)
-    
+- Starting with: `/24` = `255.255.255.0`
+- Borrow 2 bits → `/26` = `255.255.255.192`
 
 ---
 
-### 🧪 Example: `192.168.1.0/26`
+### 3️⃣ Calculate Subnet Ranges
 
-|Field|Value|
-|---|---|
-|Network ID|`192.168.1.0`|
-|First Host IP|`192.168.1.1`|
-|Last Host IP|`192.168.1.62`|
-|Broadcast IP|`192.168.1.63`|
-|Next Network|`192.168.1.64`|
-|Total IPs|`64`|
-|CIDR/Subnet|`/26` = `255.255.255.192`|
+Each `/26` block has:
+- `2^6 = 64` addresses per subnet
+- `64 - 2 = 62` usable host addresses (subtract network and broadcast)
+
+📊 Subnets:
+| Subnet # | Network Address | First Host     | Last Host      | Broadcast Address |
+|----------|------------------|----------------|----------------|-------------------|
+| 1        | 192.168.10.0     | 192.168.10.1   | 192.168.10.62  | 192.168.10.63     |
+| 2        | 192.168.10.64    | 192.168.10.65  | 192.168.10.126 | 192.168.10.127    |
+| 3        | 192.168.10.128   | 192.168.10.129 | 192.168.10.190 | 192.168.10.191    |
+| 4        | 192.168.10.192   | 192.168.10.193 | 192.168.10.254 | 192.168.10.255    |
 
 ---
 
-### 🔁 Practice
+## 🧠 Tips to Remember
 
-Try calculating these:
-[[Subnet_Reference]]
+- 🧩 Borrow bits from the host portion to make more subnets.
+- 🧮 Number of usable hosts = `2^host_bits - 2`
+- 🚫 Network and Broadcast addresses are **not** usable for hosts.
+- 🧾 Keep subnet sizes as powers of two (8, 16, 32, 64...)
 
-- `10.0.0.0/24`
+---
 
-	- Subnet Mask:
-	- Network ID:
-	- Broadcast IP:
-	- First Host IP:
-	- Last Host IP:
-	- Number of Hosts:
-	- Next Network:
+## 📝 Practice Challenge
 
-- `172.16.5.128/25`
-    
-- `192.168.10.64/27`
-    
+> Given: `10.0.0.0/16`  
+> Divide into **8 subnets**.
+
+1. How many bits do you need to borrow?
+2. What is the new subnet mask?
+3. How many addresses per subnet?
+4. What are the first two subnet ranges?
+
+---

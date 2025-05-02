@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Firewall to Main Router.md",
-                "mode": "preview",
+                "file": "Subnet/Subnetting Notes.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Firewall to Main Router"
+              "title": "Subnetting Notes"
             }
           },
           {
@@ -277,6 +277,7 @@
   },
   "active": "8725bd48d0877744",
   "lastOpenFiles": [
+    "Firewall to Main Router.md",
     "Subnet/Subnet_Reference_2.md",
     "Subnet/Subnet_Reference.md",
     "Wi-Fi_Setup.md",
@@ -301,7 +302,6 @@
     "Homelab_Equipment.md",
     "VPN.md",
     "README.md",
-    "Firewall to Main Router.md",
     "Homelab_Tools.md",
     "VLANs/VLAN40_Guests.md",
     "VLANs/VLAN30_Security.md",
