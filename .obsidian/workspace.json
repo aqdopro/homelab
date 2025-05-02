@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subnet_Practice.md",
+                "file": "Subnet/Subnet_Practice.md",
                 "mode": "preview",
                 "source": true
               },
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "49b9d1b150d114c8",
@@ -240,14 +239,21 @@
   },
   "active": "6619733d0afbe504",
   "lastOpenFiles": [
+    "Subnet/Subnetting Practice.xlsx",
+    "Subnet/lu5504byw7.tmp",
+    "VLANs/VLAN50_Servers.md",
+    "Homelab_Configurations.md",
+    "VLANs/VLAN40_Guests.md",
+    "VLANs/VLAN30_Security.md",
+    "VLANs/VLAN10_Main.md",
+    "VLANs/VLAN20_IoT.md",
+    "Subnet/Subnet_Reference_2.md",
+    "pfSense_Backups.md",
+    "Subnet/Subnet_Practice.md",
     "Subnet/Subnetting Notes.md",
-    "Subnet_Practice.md",
     "Subnet/Subnet_Reference.md",
     "Subnet/subnetting.md",
-    "Subnet/Subnet_Reference_2.md",
     "Homelab Overview.md",
-    "pfSense_Backups.md",
-    "VLANs/VLAN50_Servers.md",
     "Firewall to Main Router.md",
     "Wi-Fi_Setup.md",
     "`10.0.0.0/24`.md",
@@ -261,16 +267,11 @@
     "IP_Subnetting_Conversion_Guide.xlsx",
     "Media_Server.md",
     "Overseerr.md",
-    "Homelab_Configurations.md",
-    "VLANs/VLAN10_Main.md",
     "Homelab_Server.md",
     "Homelab_Equipment.md",
     "VPN.md",
     "README.md",
     "Homelab_Tools.md",
-    "VLANs/VLAN40_Guests.md",
-    "VLANs/VLAN30_Security.md",
-    "VLANs/VLAN20_IoT.md",
     "VLANs"
   ]
 }
