@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab Overview.md",
+                "file": "Subnet/Subnet_Reference.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homelab Overview"
+              "title": "Subnet_Reference"
+            }
+          },
+          {
+            "id": "6619733d0afbe504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Subnet_Practice.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Subnet_Practice"
             }
           },
           {
@@ -33,34 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "pfSense_Backups"
-            }
-          },
-          {
-            "id": "f587398e93fa1993",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Subnet/Subnetting Notes.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Subnetting Notes"
-            }
-          },
-          {
-            "id": "6619733d0afbe504",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Subnet/Subnet_Reference.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Subnet_Reference"
             }
           },
           {
@@ -90,33 +76,9 @@
               "icon": "lucide-file",
               "title": "VLAN50_Servers"
             }
-          },
-          {
-            "id": "8725bd48d0877744",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Subnet/Subnetting Notes.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Subnetting Notes"
-            }
-          },
-          {
-            "id": "54c2a3c8ea639bc1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "49b9d1b150d114c8",
@@ -275,13 +238,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8725bd48d0877744",
+  "active": "6619733d0afbe504",
   "lastOpenFiles": [
-    "Firewall to Main Router.md",
-    "Subnet/Subnet_Reference_2.md",
-    "Subnet/Subnet_Reference.md",
-    "Wi-Fi_Setup.md",
     "Subnet/Subnetting Notes.md",
+    "Subnet_Practice.md",
+    "Subnet/Subnet_Reference.md",
+    "Subnet/subnetting.md",
+    "Subnet/Subnet_Reference_2.md",
+    "Homelab Overview.md",
+    "pfSense_Backups.md",
+    "VLANs/VLAN50_Servers.md",
+    "Firewall to Main Router.md",
+    "Wi-Fi_Setup.md",
     "`10.0.0.0/24`.md",
     "`10.0.0.0",
     "Subnet/10.0.0.0/24.md",
@@ -291,12 +259,9 @@
     "IP_Subnetting_Conversion_Guide.csv",
     "~$IP_Subnetting_Conversion_Guide.xlsx",
     "IP_Subnetting_Conversion_Guide.xlsx",
-    "pfSense_Backups.md",
     "Media_Server.md",
     "Overseerr.md",
     "Homelab_Configurations.md",
-    "VLANs/VLAN50_Servers.md",
-    "Homelab Overview.md",
     "VLANs/VLAN10_Main.md",
     "Homelab_Server.md",
     "Homelab_Equipment.md",

@@ -1,4 +1,17 @@
 # 🌐 Subnetting Practice Notes
+|                |                                        |
+| -------------- | -------------------------------------- |
+| Network ID     | First IP address in each Sub-Network   |
+| Broadcast IP   | Last IP address in each Sub-Network    |
+| First Host IP  | IP address **after** the Network ID    |
+| Last Host IP   | IP address **before** the Broadcast IP |
+| Next Network   | IP addess **after** the Broadcast IP   |
+| # IP Addresses | Number of IP addesses in Sub-Network   |
+| CIDR / Subnet  | Converting between CIDR/Subnet Mask    |
+
+[[Subnet_Practice]]
+
+---
 
 ## 📘 IPv4 Basics
 
@@ -37,11 +50,11 @@ Each `/26` block has:
 
 📊 Subnets:
 | Subnet # | Network Address | First Host     | Last Host      | Broadcast Address |
-|----------|------------------|----------------|----------------|-------------------|
-| 1        | 192.168.10.0     | 192.168.10.1   | 192.168.10.62  | 192.168.10.63     |
-| 2        | 192.168.10.64    | 192.168.10.65  | 192.168.10.126 | 192.168.10.127    |
-| 3        | 192.168.10.128   | 192.168.10.129 | 192.168.10.190 | 192.168.10.191    |
-| 4        | 192.168.10.192   | 192.168.10.193 | 192.168.10.254 | 192.168.10.255    |
+|:--------:| --------------- | -------------- | -------------- | ----------------- |
+|    1     | 192.168.10.0    | 192.168.10.1   | 192.168.10.62  | 192.168.10.63     |
+|    2     | 192.168.10.64   | 192.168.10.65  | 192.168.10.126 | 192.168.10.127    |
+|    3     | 192.168.10.128  | 192.168.10.129 | 192.168.10.190 | 192.168.10.191    |
+|    4     | 192.168.10.192  | 192.168.10.193 | 192.168.10.254 | 192.168.10.255    |
 
 ---
 
