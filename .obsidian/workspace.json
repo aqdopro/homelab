@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subnet/Subnet_Practice.md",
-                "mode": "preview",
+                "file": "Docker.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Subnet_Practice"
+              "title": "Docker"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pfSense_Backups.md",
+                "file": "Homelab_Configurations.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "pfSense_Backups"
+              "title": "Homelab_Configurations"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,21 +237,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6619733d0afbe504",
+  "active": "0a867a1e1f49b155",
   "lastOpenFiles": [
+    "pfSense_Backups.md",
+    "Docker.md",
+    "Media_Server.md",
+    "Jellyfin.md",
+    "Subnet/Subnet_Practice.md",
+    "Subnet/Subnet_Reference.md",
+    "VLANs/VLAN50_Servers.md",
+    "Subnet/Subnet_Reference_2.md",
     "Subnet/Subnetting Practice.xlsx",
     "Subnet/lu5504byw7.tmp",
-    "VLANs/VLAN50_Servers.md",
     "Homelab_Configurations.md",
     "VLANs/VLAN40_Guests.md",
     "VLANs/VLAN30_Security.md",
     "VLANs/VLAN10_Main.md",
     "VLANs/VLAN20_IoT.md",
-    "Subnet/Subnet_Reference_2.md",
-    "pfSense_Backups.md",
-    "Subnet/Subnet_Practice.md",
     "Subnet/Subnetting Notes.md",
-    "Subnet/Subnet_Reference.md",
     "Subnet/subnetting.md",
     "Homelab Overview.md",
     "Firewall to Main Router.md",
@@ -265,13 +268,11 @@
     "IP_Subnetting_Conversion_Guide.csv",
     "~$IP_Subnetting_Conversion_Guide.xlsx",
     "IP_Subnetting_Conversion_Guide.xlsx",
-    "Media_Server.md",
     "Overseerr.md",
     "Homelab_Server.md",
     "Homelab_Equipment.md",
     "VPN.md",
     "README.md",
-    "Homelab_Tools.md",
     "VLANs"
   ]
 }

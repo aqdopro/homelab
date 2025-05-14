@@ -27,7 +27,7 @@ This note covers the plan for setting up a Media Server in the homelab, capable 
 
 - Linux-based for flexibility
     
-- Supports Docker and Kubernetes
+- Supports [[Docker]] and Kubernetes
     
 - Ideal for running multiple apps in containers
     
@@ -45,7 +45,7 @@ This note covers the plan for setting up a Media Server in the homelab, capable 
 
 ## 📦 Services to Run
 
-- Jellyfin (via Docker or TrueNAS App)
+- [[Jellyfin]] (via Docker or TrueNAS App)
     
 - Plex (via Docker or TrueNAS App)
     
